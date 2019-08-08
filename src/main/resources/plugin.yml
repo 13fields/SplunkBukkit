@@ -1,0 +1,5 @@
+name: Splunk_Bukkit
+main: splunkbukkit.Main
+version: "${pom.version}"
+api: ["1.0.0"]
+author: Paul McDonough @ 13Fields

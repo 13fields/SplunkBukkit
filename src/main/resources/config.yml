@@ -1,0 +1,46 @@
+logFile: "/logs/events.log"
+logLoggerStatus: true
+logBlockBreak: true
+logBlockPlace: true
+logPlayerDamage: true
+logPlayerDeath: true
+logEntityDeath: true
+logPlayerJoin: true
+logPlayerQuit: true
+logItemDrop: true
+logItemPickup: true
+logBucketFill: true
+logBucketEmpty: true
+logPlayerCommand: true
+
+# Death Messages
+SUFFOCATION: <Player> suffocated in wall
+FALL: <Player> went skydiving without a parachute
+FIRE: <Player> died in a blaze of glory
+FIRE_TICK: <Player> slowly turned to a crisp
+LAVA: <Player> was turned into crispy duck
+DROWNING: <Player> joined the lady of the lake
+BLOCK_EXPLOSION: <Player> got too close to Nepolion Dynamite
+ENTITY_EXPLOSION: <Player> was blown to smitherines by <Attacker>
+LIGHTNING: <Player> took 1.2.1 jigawatts to the system
+VOID: <Player> went over the edge
+SUICIDE: <Player> couldn't take anymore
+MAGIC: <Player> fell to avarda kadavra
+KILL_BY_WEAPON: <Player> was defeated in armed combat by <Attacker> using <WeaponName>
+MOB_ATTACK: <Player> was ambushed by <Attacker>
+PROJECTILE: <Player> took an <Projectile> to the knee by <Attacker>
+
+# This will be the default death message
+CUSTOM: <Player> died cos reasons
+
+# Damage Messages
+PLAYER_ATTACK_DAMAGE: <Player> took a blow from <Attacker> but is still standing
+PLAYER_DAMAGE: <Player> can take the pain!
+
+# Custom Messages for mobs 
+MOB_CUSTOM: well... <Entity> had enough of that
+MOB_DEATH: it seems that <Entity> took a dirt nap
+MOB_CREEPER: pop goes the <Entity>!
+MOB_KILL_BY_WEAPON: <Attacker> killed the <Entity> using <WeaponName>
+MOB_DAMAGE_BY_WEAPON: <Attacker> dealt damage to <Entity> using <WeaponName> but it lives to see another day 
+MOB_DAMAGE: <Attacker> dealt damage to <Entity> but it lives to see another day 
